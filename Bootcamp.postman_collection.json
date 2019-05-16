@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "ee879a3f-3b82-4c44-b6fd-121e6bcc265b",
+		"name": "Bootcamp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Kelowna",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://restapi.demoqa.com/utilities/weather/city/Kelowna",
+					"protocol": "http",
+					"host": [
+						"restapi",
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"utilities",
+						"weather",
+						"city",
+						"Kelowna"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Blah",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://restapi.demoqa.com/utilities/weather/city/Blah",
+					"protocol": "http",
+					"host": [
+						"restapi",
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"utilities",
+						"weather",
+						"city",
+						"Blah"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
